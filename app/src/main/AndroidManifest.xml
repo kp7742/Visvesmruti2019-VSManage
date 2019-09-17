@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="tech.visvesmruti.vsmanage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".VSApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeNo"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".activities.CodersActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".activities.PaymentCheckActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AttendanceDoneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TakeAttendanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.QRActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PayingAmountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ParticipantListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.StudentRegActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DashboardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.EventRegActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

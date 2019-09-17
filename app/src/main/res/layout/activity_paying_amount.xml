@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgroundpic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/payicon"
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/money" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="11dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:contentPadding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/campname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#A2A2A2"
+                android:ems="10"
+                android:text="Aadil Shaikh"
+                android:textAlignment="center"
+                android:textColor="#A2A2A2"
+                android:textColorHint="#A2A2A2"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/campid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:ems="10"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:text="VS2019/K2q2sd" />
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#A2A2A2"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#A2A2A2"
+                android:ems="10"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:text="AMOUNT YOU HAVE TO PAY"/>
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#A2A2A2"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="#A2A2A2"
+                android:ems="10"
+                android:textSize="40sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="₹ 20" />
+
+            <Button
+                android:id="@+id/paybtn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btnshape"
+                android:textColor="#000000"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="Paid Fees"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

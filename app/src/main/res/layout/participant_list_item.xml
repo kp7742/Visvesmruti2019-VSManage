@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parti_list_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:contentPadding="-1dp">
+
+    <RelativeLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/PName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="Kuldip Patel"
+            android:textAlignment="center"
+            android:background="#FF9933"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginStart="3dip"
+            android:layout_marginEnd="3dip"
+            android:layout_below="@id/PName"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/mobilenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PName"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="+919998897742"
+            android:textColor="#000080"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mobilenum"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="Sem: 6"
+            android:textColor="#000080"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/PEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/mobilenum"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:text="patel.kuldip91@gmail.com"
+            android:textColor="#000080"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/colgname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/semester"
+            android:layout_alignStart="@id/PEmail"
+            android:text="RNGPIT"
+            android:textColor="#000080"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="3dip"
+            android:layout_marginEnd="3dip"
+            android:layout_below="@id/colgname"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/eventname"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/colgname"
+            android:gravity="center_vertical"
+            android:text="Programmming Date"
+            android:textAlignment="center"
+            android:background="#138808"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

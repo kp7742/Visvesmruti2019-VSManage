@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context="tech.visvesmruti.vsmanage.activities.ParticipantListActivity"
+    android:background="@drawable/backgroundpic">
+
+    <EditText
+        android:id="@+id/filter_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Search for email"
+        android:textAlignment="center"
+        android:textColorHint="#a2a2a2"
+        android:backgroundTint="#a2a2a2"
+        android:textColor="#a2a2a2"
+        android:textSize="16sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cardList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">VSManage</string>
+    <string name="login_id">Login ID</string>
+    <string name="password">Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="paying">Paying Now</string>
+    <string name="submit">Submit</string>
+    <string name="participant_email">Participant Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="college_name">College Name</string>
+    <string name="semester">Semester</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="participant_email_leader">1st Participant Email(Leader)</string>
+    <string name="participant_email_2">2nd Participant Email</string>
+    <string name="participant_email_3">3rd Participant Email</string>
+    <string name="participant_email_4">4th Participant Email</string>
+    <string name="participant_email_5">5th Participant Email</string>
+    <string name="participant_email_6">6th Participant Email</string>
+    <string name="participant_email_7">7th Participant Email</string>
+    <string name="event_id">Event ID</string>
+    <string name="or_scan_qr_code">Or Scan QR code?</string>
+    <string name="payment_check">-: Payment Check :-</string>
+    <string name="dev1">Kuldip Patel</string>
+    <string name="dev1txt">Lead Backend Developer and Co-Developer of App</string>
+    <string name="dev2">Aadil Shaikh</string>
+    <string name="dev2txt">Lead Android Developer</string>
+</resources>

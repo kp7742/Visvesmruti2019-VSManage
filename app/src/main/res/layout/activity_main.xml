@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpic"
+    tools:context="tech.visvesmruti.vsmanage.activities.MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:contentPadding="5dp"
+        app:cardPreventCornerOverlap="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="164dp"
+                android:layout_height="124dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/vsadmin" />
+
+            <EditText
+                android:id="@+id/loginid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="@string/login_id"
+                android:inputType="text"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"/>
+
+            <EditText
+                android:id="@+id/loginpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"/>
+
+            <Button
+                android:id="@+id/loginbtn"
+                android:layout_width="216dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/log_in"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:background="@drawable/btnshape" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
